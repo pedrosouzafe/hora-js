@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body {
+    background-image: linear-gradient(to top, #6ba4ff,#4a8eff, #155ed3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 97vh;
+}
+
+header {
+    margin: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 3vh;
+    
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    width: 20vw;
+    padding: 13px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.267);
+}
+
+#msg {
+    text-align: center;   
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(245, 244, 244);
+}
+
+div {
+    text-align: center;
+    padding: 7px;
+}
+
+
+
+
+@media (max-width: 1290px){
+    main{
+        width: 30vw;
+    }
+}
+
+@media (max-width: 800px){      /* SEMPRE DEIXE AS MEDIA QUERYS POR ULTIMO!! PARA NÃO SEREM SOBRESCREVIDAS */
+    main {
+        width: 50vw;
+    }
+}
+
+@media (min-width: 400px) and (max-width:600px){
+
+    body {
+        padding: 50px;
+    }
+
+    main {
+        width: 65vw;
+    }
+}
+
+
+@media (min-width: 300px) and (max-width:400px){
+
+
+    main {
+        width: 91vw;
+        border-radius: 0px;
+    }
+}
